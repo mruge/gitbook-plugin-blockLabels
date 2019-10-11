@@ -27,7 +27,7 @@ You **cannot** mark nested blocks or code blocks.  To accomplish that, insert an
 ```plantuml
 component mydiagram
 ```
-{% label labelPrev='img', marking='Draft' %}
+{% label labelPrev='img', label='Draft' %}
 {% endlabel %}
 
 The value of labelPrev currently has no effect, it was added for the future feature of specifying the type of the previous object, currently only supports blocks that render as IMG in the final html.
@@ -41,7 +41,7 @@ if no *defaultLabel* is an empty string, or the config is not defined, only bloc
 ```json
 "pluginsConfig": {
         "blockLabels": {
-            "defaultLabel": "U"
+            "defaultLabel": "IMPORTANT"
         }
     }
 ```
