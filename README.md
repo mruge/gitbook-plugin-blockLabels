@@ -8,7 +8,7 @@ Add the below to your `book.json` file, then run `gitbook install` :
 
 ```json
 {
-    "plugins": ["blockLabel"]
+    "plugins": ["blocklabel"]
 }
 ```
 
@@ -40,7 +40,7 @@ if no *defaultLabel* is an empty string, or the config is not defined, only bloc
 
 ```json
 "pluginsConfig": {
-        "blockLabels": {
+        "blocklabels": {
             "defaultLabel": "IMPORTANT"
         }
     }
