@@ -6,13 +6,13 @@
     "engines": {
         "gitbook": "*"
     },
-    "homepage": "https://github.com/GitbookIO/plugin",
+    "homepage": "https://github.com/mruge/gitbook-plugin-blockLabels",
     "repository": {
         "type": "git",
-        "url": "https://github.com/GitbookIO/plugin.git"
+        "url": "https://github.com/mruge/gitbook-plugin-blockLabels"
     },
     "license": "Apache 2",
     "bugs": {
-        "url": "https://github.com/GitbookIO/plugin/issues"
+        "url": "https://github.com/mruge/gitbook-plugin-blockLabels/issues"
     }
 }
