@@ -1,5 +1,5 @@
 {
-    "name": "gitbook-plugin-blockLabels",
+    "name": "gitbook-plugin-blocklabels",
     "description": "Block/Object Labeling for documents",
     "main": "index.js",
     "version": "0.1.1",
