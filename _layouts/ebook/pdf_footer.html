@@ -1,0 +1,5 @@
+{% extends "./page.html" %}
+
+{% block body %}
+<div id="pdf-footer" class="pdf-footer"><span class="sub">{{ config.pluginsConfig.blockLabels.footer }} | {{ config.title }}-{{config.description}} | GITHASH: {{ config.variables.githash }} | Updated: {{ file.mtime|date("MM/DD/YYYY") }} | Page Number: {{ page.num }} </span> </div>
+{% endblock %}

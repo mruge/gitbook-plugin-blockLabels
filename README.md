@@ -2,6 +2,10 @@
 
 Applies a (*label*) around blocks of text, images, or tables.
 
+*jan-31-2020: Also adds the Header and Footer to PDFs
+
+Theme information copied from https://github.com/GitbookIO/theme-default
+
 ## Install
 
 Add the below to your `book.json` file, then run `gitbook install` :
@@ -41,7 +45,9 @@ if no *defaultLabel* is an empty string, or the config is not defined, only bloc
 ```json
 "pluginsConfig": {
         "blocklabels": {
-            "defaultLabel": "IMPORTANT"
+            "defaultLabel": "IMPORTANT",
+            "header": "MY CUSTOM HEADER",
+            "footer": "My CUstom Footer"
         }
     }
 ```
