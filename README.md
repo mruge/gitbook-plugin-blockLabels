@@ -1,8 +1,7 @@
 # Label Objects in the Document
 
-Applies a (*label*) around blocks of text, images, or tables.
-
-*jan-31-2020: Also adds the Header and Footer to PDFs
+* Applies a (*label*) around blocks of text, images, or tables.
+* Adds the Header and Footer to PDF
 
 Theme information copied from https://github.com/GitbookIO/theme-default
 
@@ -40,14 +39,14 @@ The value of labelPrev currently has no effect, it was added for the future feat
 
 Add the following to *book.json*
 
-if no *defaultLabel* is an empty string, or the config is not defined, only blocks will be labeled.
+If *defaultLabel* is an empty string, or the config is not defined, only blocks will be labeled.
 
 ```json
 "pluginsConfig": {
         "blocklabels": {
             "defaultLabel": "IMPORTANT",
             "header": "MY CUSTOM HEADER",
-            "footer": "My CUstom Footer"
+            "footer": "My Custom Footer"
         }
     }
 ```
