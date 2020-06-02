@@ -2,7 +2,7 @@
     "name": "gitbook-plugin-blocklabels",
     "description": "Block/Object Labeling for documents",
     "main": "index.js",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "engines": {
         "gitbook": "*"
     },
