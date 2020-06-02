@@ -10,12 +10,15 @@ function addlabel(html, label, labelPrev) {
 
             var correctLabel = $(this).attr('label');
             var figure = $('<figure></figure>');
+            figure.attr('border', '5');
             var caption = $('<figcaption>Figure is ('+correctLabel+')</figcaption>');
 
             img.wrap(figure);
             figure.append(caption);
             $(this).prev().attr("label",correctLabel);
             img.attr("label",correctLabel);
+            img.attr('align','center');
+            img.attr('style',"margin-left: auto;margin-right: auto;display: block;")
 
             $(this).remove();
         });
@@ -40,11 +43,14 @@ function addlabel(html, label, labelPrev) {
 
             img.attr('border', '5');
             var figure = $('<figure></figure>');
+            figure.attr('border', '5');
             var caption = $('<figcaption>Figure is ('+label+')</figcaption>');
 
             img.wrap(figure);
             figure.append(caption);
-            img.attr('label',label)
+            img.attr('label',label);
+            img.attr('align','center');
+            img.attr('style',"margin-left: auto;margin-right: auto;display: block;")
 
         });
 
